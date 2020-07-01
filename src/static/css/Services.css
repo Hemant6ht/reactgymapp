@@ -1,0 +1,28 @@
+.maintop{
+    margin-top:2rem;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.serv{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+.card{
+    margin:20px;
+    padding: 2rem 2rem;
+    text-align: center;
+    width:90%;
+    height:330px;
+}
+.cardbody img{
+    height:60%;
+    width: 60%;
+}
+.cardbody{
+    width:100%;
+    height:100%;
+}
